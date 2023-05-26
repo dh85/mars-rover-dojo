@@ -4,7 +4,7 @@ import XCTest
 
 final class MarsRoverMacTests: XCTestCase {
     
-    func testRoverRightAndLeft() {
+    func testRoverMovementOnAMockBoardWithObstacles() {
         let mockBoard = [
             [0, 0, 0, 0, 0, 0, 0, 1],
             [1, 0, 1, 0, 0, 0, 0, 0],

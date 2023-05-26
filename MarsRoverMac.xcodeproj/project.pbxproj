@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9737BD032A1F78BE00416B53 /* MarsRoverMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9737BCFA2A1F78BE00416B53 /* MarsRoverMac.framework */; };
 		9737BD082A1F78BE00416B53 /* MarsRoverMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737BD072A1F78BE00416B53 /* MarsRoverMacTests.swift */; };
-		9737BD092A1F78BE00416B53 /* MarsRoverMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 9737BCFD2A1F78BE00416B53 /* MarsRoverMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9737BD132A1F79F900416B53 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737BD122A1F79F900416B53 /* Rover.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		9737BCFA2A1F78BE00416B53 /* MarsRoverMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarsRoverMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9737BCFD2A1F78BE00416B53 /* MarsRoverMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsRoverMac.h; sourceTree = "<group>"; };
 		9737BD022A1F78BE00416B53 /* MarsRoverMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9737BD072A1F78BE00416B53 /* MarsRoverMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverMacTests.swift; sourceTree = "<group>"; };
 		9737BD122A1F79F900416B53 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		9737BCFC2A1F78BE00416B53 /* MarsRoverMac */ = {
 			isa = PBXGroup;
 			children = (
-				9737BCFD2A1F78BE00416B53 /* MarsRoverMac.h */,
 				9737BD122A1F79F900416B53 /* Rover.swift */,
 			);
 			path = MarsRoverMac;
@@ -92,7 +89,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9737BD092A1F78BE00416B53 /* MarsRoverMac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
